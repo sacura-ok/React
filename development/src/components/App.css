@@ -1,0 +1,10 @@
+.wrapper {
+  margin: 0 auto;
+  padding: 2rem;
+  width: 90%;
+}
+main {
+  display: flex;
+  justify-content: space-around;
+  align-items: flex-start;
+}

@@ -1,0 +1,44 @@
+.review {
+  display: flex;
+  padding: 1rem;
+  box-shadow: 1px 1px 2px 1px rgba(0,0,0,0.12);
+}
+.review__item {
+  margin-right: 1rem;
+  font-size: 14px;
+}
+.review::before {
+  position: absolute;
+  top: -5px;
+  left: 0;
+  content: "";
+  margin-top: 0.3125rem;
+  display: block;
+  width: 1px;
+  height: 2rem;
+  background: #0866ad;
+}
+.review::after {
+  position: absolute;
+  bottom: -1px;
+  right: 0;
+  content: "";
+  right: 0;
+  margin-top: 0.3125rem;
+  display: block;
+  width: 1px;
+  height: 2rem;
+  background: #0866ad;
+}
+.review__rate {
+  display: block;
+  width: 20px;
+  height: 18px;
+  font-size: 14px;
+  border: 1px solid #8f8f8f;
+  border-radius: 12px;
+  text-align: center;
+}
+.review__rate--color {
+  background: #ffa000;
+}

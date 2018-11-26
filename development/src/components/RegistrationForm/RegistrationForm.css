@@ -1,0 +1,72 @@
+.authorization {
+  margin: 0 auto 1rem;
+  padding: 2rem;
+  display: flex;
+  width: 50%;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  background-color: #dcdcdc17;
+  box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.12);
+}
+.registration-form {
+  width: 50%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+
+}
+.registration-form__item {
+  margin-bottom: 1rem;
+  padding: 0.5rem;
+  box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.12);
+}
+.registration-form__block {
+  display: flex;
+  justify-content: space-between;
+
+}
+.registration-form__button {
+  width: 47%;
+  color: #fff;
+  border: 1px solid  #0866ad;
+  background: #0866ad;
+}
+.registration-form__button:hover {
+  color: #000;
+  background: #dcdcdc17;
+  cursor: pointer;
+}
+.view-catalog {
+  padding: 0.5rem;
+  background: #dcdcdc17;
+  border: 1px solid  #0866ad;
+  box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.12);
+}
+.view-catalog:hover {
+  color: #fff;
+  background: #0866ad;
+  cursor: pointer;
+}
+.registration-form__message {
+  display: block;
+  padding: 0.5rem;
+  font-size: 15px;
+  text-align: center;
+  box-shadow: none;
+}
+.registration-form__sign-out{
+  display: flex;
+  justify-content: space-around;
+  box-shadow: none;
+  align-items: center;
+}
+.registration-form__user {
+  margin-right: 1rem;
+  font-size: 0.875rem;
+}
+.registration-form__button-out {
+  padding: 0.2rem;
+  color: #fff;
+  background: #0866ad;
+}

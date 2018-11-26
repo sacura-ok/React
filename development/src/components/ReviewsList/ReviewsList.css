@@ -1,0 +1,65 @@
+.list-reviews__add {
+  display: flex;
+  padding: 1rem 0;
+  align-items: center;
+}
+.list-reviews__rate {
+  display: flex;
+  flex-direction: row-reverse;
+  justify-content: flex-end;
+  margin-right: 1rem;
+}
+.list-group-item {
+  cursor: pointer;
+}
+.list-reviews__review {
+  margin-right: 0.5rem;
+  width: 40%;
+  height: 2rem;
+  text-indent: 1rem;
+  box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.12);
+}
+textarea::placeholder {
+  line-height: 2rem;
+}
+.list-reviews__button {
+  height: 2.1rem;
+  width: 9rem;
+  color: #fff;
+  background: #0866ad;
+  border: 1px solid  #0866ad;
+  box-shadow: 1px 1px 2px 2px rgba(0,0,0,0.12);
+}
+.list-reviews__button:hover {
+  color: #000;
+  background: #dcdcdc17;
+  cursor: pointer;
+}
+.list-group-review {
+  position: relative;
+  margin-bottom: 0.5rem;
+}
+.list-group-review::before {
+  content: "";
+  margin-top: 0.3125rem;
+  display: block;
+  width: 5rem;
+  height: 1px;
+  background: #0866ad;
+}
+.list-group-review::after {
+  position: absolute;
+  content: "";
+  right: 0;
+  display: block;
+  width: 5rem;
+  height: 1px;
+  background: #0866ad;
+}
+.list-reviews__not-allow {
+  padding: 1rem 0;
+}
+.list-group-item:hover,
+.list-group-item:hover ~ .list-group-item {
+  background: #ffa000;
+}
